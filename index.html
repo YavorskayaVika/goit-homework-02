@@ -1,86 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+      rel="stylesheet">
     <title>Document</title>
   </head>
   <!-- Profile header -->
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <a href="/"> WEBSTUDIO </a>
-        <ul>
+        <ul class="navigation">
+        <li class="Logo">
+          <li class="logo-section" ><a href="/"> <span class="accent">WEB</span>STUDIO</a></li>
           <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="contacs">
         <li>info@devstudio.com</li>
         <li>+11 (000) 111-11-11</li>
       </ul>
     </header>
-  <!--Hero -->
+    <!--Hero -->
     <div>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button>Order Service</button>
+      <section class="hero">
+        <h1 class="hero-title">Effective Solutions for <br>Your Business</h1>
+        <button class="button">Order Service</button>
       </section>
     </div>
     <main>
-        <!-- Main goals -->
-      <ul>
-        <li>
-          <h3>Strategy</h3>
-          <p>
-            Our goal is to identify the business problem to walk away with the
-            perfect and creative solution.
-          </p>
-        </li>
+      <!-- Main goals -->
+      <div class="section width-limiter">
+        <ul class="goals-blok">
+          <li class="goals">
+            <h3 class="title-goals"> Strategy</h3>
+            <p class="section-goals">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
+            </p>
+          </li>
 
-        <li>
-          <h3>Punctuality</h3>
-          <p>
-            Bring the key message to the brand's audience for the best price
-            within the shortest possible time.
-          </p>
-        </li>
+          <li class="goals">
+            <h3 class="title-goals"> Punctuality</h3>
+            <p class="section-goals">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
+            </p>
+          </li>
 
-        <li>
-          <h3>Technologies</h3>
-          <p>
-            Design practice focused on digital experiences. We bring forth a
-            deep passion for problem-solving.
-          </p>
-        </li>
-      </ul>
+          <li class="goals">
+            <h3 class="title-goals">Deligence</h3>
+            <p class="section-goals">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
+            </p>
+          </li>
+
+          <li class="goals">
+            <h3 class="title-goals">  Technologies</h3>
+            <p class="section-goals">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
+            </p>
+          </li>
+        </ul>
+      </div>
+
       <!-- What are we doing -->
-      <h2>What are we doing</h2>
-      <img src="./images/komp.jpg" alt="our product" width= "360">
-      <img src="./images/img2.jpg" alt="our product" width= "360">
-      <img src="./images/rectangle71.jpg" alt="our product" width="360">
+      <div class="section width-limiter">
+        <h2 class="section-title">What are we doing</h2>
+        <div class="section__content">
+          <img src="./images/komp.jpg" alt="our product" width="360" >
+          <img src="./images/img2.jpg" alt="our product" width="360" >
+          <img src="./images/rectangle71.jpg" alt="our product" width="360" >
+        </div>
+      </div>
       <!--Our Team-->
-      <h2>Our Team</h2>
-      <img src="./images/marc .jpg" alt="photo" width="264" >
-      <h3>Mark Guerrero</h3>
-      <h4>Product Designer</h4>
-      <img src="./images/tom.jpg" alt="photo" width="264" >
-      <h3>Tom Ford</h3>
-      <h4>Frontend Developer</h4>
-      <img src="./images/camila.jpg" alt="photo" width="264" >
-      <h3>Camila Garcia</h3>
-      <h4>Marketing</h4>
-      <img src="./images/daniel.jpg" alt="photo" width="264" >
-      <h3>Daniel Wilson</h3>
-      <h4>UI Designer</h4>
+
+      <div class="section width-limiter">
+        <h2 class="section-title">Our Team</h2>
+        <div class="section__content">
+          <div class="team-card">
+            <img src="./images/marc.jpg" alt="photo" width="264">
+            <h3  class="team-card-name">Mark Guerrero</h3>
+            <h4>Product Designer</h4>
+          </div>
+          <div class="team-card">
+            <img src="./images/tom.jpg" alt="photo" width="264">
+            <h3 class="team-card-name">Tom Ford</h3>
+            <h4>Frontend Developer</h4>
+          </div>
+          <div class="team-card">
+            <img src="./images/camila.jpg" alt="photo" width="264">
+            <h3 class="team-card-name"> Camila Garcia</h3>
+            <h4>Marketing</h4>
+          </div>
+          <div class="team-card">
+            <img src="./images/daniel.jpg" alt="photo" width="264">
+            <h3 class="team-card-name">Daniel Wilson</h3>
+            <h4>UI Designer</h4>
+          </div>
+        </div>
+      </div>
     </main>
-     <!-- Footer -->
+    <!-- Footer -->
     <footer>
-      <div>
-        <a href="/">WEBSTUDIO </a>
+      <div class="footer">
+        <a href="/"> <span class="accent" >WEB</span><span class="logo-foot">STUDIO</span></a>
         <p>
           Increase the flow of customers and sales for your business with
           digital marketing & growth solutions.

@@ -1,0 +1,126 @@
+:root {
+  --primari-text-color: #2e2f42;
+  --title-color: #434455;
+  --accent: #4d5ae5;
+  --accent-two: #f4f4fd;
+  --header-color: #e7e9fc;
+  --white: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primari-text-color);
+  margin: 0 auto;
+  width: 1440px;
+}
+
+body ul {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+/* header */
+.header {
+  background-color: var(--header-color);
+}
+.accent {
+  color: var(--accent);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+.logo-foot {
+  color: var(--accent-two);
+}
+.contacs:hover,
+.contacs:focus {
+  color: red;
+} 
+.navigation{
+    font-weight: 500;
+}
+
+ /* hero */
+.hero {
+  background-color: var(--primari-text-color);
+}
+.hero-title {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+}
+.button {
+  background-color: var(--accent);
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+}
+.button:hover {
+    background-color: var(--accent);
+    color: var(--white)
+}
+ /* Goals */
+.section-goals {
+  color: var(--title-color);
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  width: 264px;
+  height: 72px;
+}
+.title-goals{
+  font-weight: 500;
+}
+.goals {
+  display: inline-block;
+}
+.goals-blok {
+  padding: 0%;
+}
+/* Team card */
+.width-limiter {
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+}
+
+.section__content {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: space-between;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  width: 264px;
+  height: 380px;
+  background: var(--white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-card-name{
+  font-weight: 500;
+}
+
+.all-images h2{
+  font-weight: 500;
+}
+.button-list button {
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 500;
+}
+.footer {
+  background-color: var(--primari-text-color);
+  color: var(--accent-two);
+}
