@@ -100,7 +100,7 @@ body ul {
 /* Goals */
 .section-goals {
   color: var(--title-color);
-  font-size: 16px;
+  font-size:16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
