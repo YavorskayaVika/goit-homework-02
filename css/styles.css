@@ -54,8 +54,8 @@ body ul {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
-.link:hover,
-.link:focus {
+.my-link:hover,
+.my-link:focus {
   color: #404bbf;
 }
 
@@ -67,7 +67,7 @@ body ul {
   color: var(--primari-text-color);
 }
 
-.link {
+.my-link {
   text-decoration: none;
 }
 /* hero */
