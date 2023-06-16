@@ -8,40 +8,69 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primari-text-color);
+  color: #434455;
   margin: 0 auto;
-  width: 1440px;
+  background-color: var(--white);
 }
 
 body ul {
   list-style: none;
 }
-body a {
-  text-decoration: none;
-}
+
 /* header */
 .header {
   background-color: var(--header-color);
 }
 .accent {
-  color: var(--accent);
+  color: var(--primari-text-color);
+}
+.list {
+  list-style: none;
 }
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--accent);
 }
+
 .logo-foot {
   color: var(--accent-two);
 }
 .contacs:hover,
 .contacs:focus {
-  color: red;
-} 
-.navigation{
-    font-weight: 500;
+  color: #404bbf;
+}
+.contacs {
+  font-style: normal;
+}
+.connection {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
- /* hero */
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primari-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+/* hero */
 .hero {
   background-color: var(--primari-text-color);
 }
@@ -49,78 +78,91 @@ body a {
   color: white;
   font-size: 56px;
   font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--accent);
   color: var(--white);
   cursor: pointer;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.button:hover {
-    background-color: var(--accent);
-    color: var(--white)
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+  color: var(--white);
 }
- /* Goals */
+/* Goals */
 .section-goals {
   color: var(--title-color);
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  height: 72px;
 }
-.title-goals{
+.title-goals {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primari-text-color);
 }
-.goals {
-  display: inline-block;
-}
-.goals-blok {
-  padding: 0%;
-}
+
 /* Team card */
 .width-limiter {
-  width: 1128px;
   margin: 0 auto;
 }
 
 .section-title {
-  text-align: center;
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--primari-text-color);
+  text-transform: capitalize;
 }
 
-.section__content {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-  justify-content: space-between;
+.card-list {
+  background-color: #ffffff;
 }
-
 .team-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 0px 32px;
-  width: 264px;
-  height: 380px;
-  background: var(--white);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
-.team-card-name{
-  font-weight: 500;
+  background-color: #f4f4fd;
 }
 
-.all-images h2{
+.all-images {
   font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primari-text-color);
 }
-.button-list button {
+.subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.button-styls button {
   color: var(--accent);
   cursor: pointer;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
 }
-.footer {
+.text {
   background-color: var(--primari-text-color);
   color: var(--accent-two);
+}
+.footer-info {
+  line-height: 1.5;
+  color: var(--accent-two);
+  letter-spacing: 0.02em;
 }
