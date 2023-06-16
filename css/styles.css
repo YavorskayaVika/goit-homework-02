@@ -105,7 +105,7 @@ body ul {
   letter-spacing: 0.02em;
 }
 .title-goals {
-  font-weight: 500;
+  font-weight:500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -171,4 +171,10 @@ body ul {
   line-height: 1.5;
   color: var(--accent-two);
   letter-spacing: 0.02em;
+}
+.my-color{
+  color: var(--primari-text-color);
+}
+.color-tel{
+  color: var(--title-color);
 }
